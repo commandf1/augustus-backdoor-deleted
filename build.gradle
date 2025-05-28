@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'nick'
+version = ''
+archivesBaseName='Augustus'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes('Main-Class':'nick.Augustus')
+    }
+}
